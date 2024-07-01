@@ -16,7 +16,8 @@ This is the frontend of the User Management System, developed with Angular and A
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) (for Angular CLI)
+- [Node.js - 20.12.2](https://nodejs.org/) (for Angular CLI)
+- [Angular - 18.0.6](https://angular.dev/overview)
 
 ## Getting Started
 

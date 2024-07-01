@@ -1,27 +1,40 @@
-# FrontWForm
+# User Management System - Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.6.
+## Overview
 
-## Development server
+This is the frontend of the User Management System, developed with Angular and Angular Material. It supports user registration and login functionalities, interacting with a backend secured with JWT authentication.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- **User Registration**: Allows new users to register by providing personal and authentication details.
+- **User Login**: Enables registered users to log in using their credentials.
+- **Home**: Displays a greeting message upon successful login.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
 
-## Build
+- **Frontend**: Angular, Angular Material
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Prerequisites
 
-## Running unit tests
+- [Node.js](https://nodejs.org/) (for Angular CLI)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Getting Started
 
-## Running end-to-end tests
+### Set Up the Project
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/JuanJSalzar/WebFormFront.git
+    cd WebFormFront
+    code .
+    ```
 
-## Further help
+2. **Install Dependencies**:
+    ```bash
+    npm install
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+3. **Run the Frontend**:
+    ```bash
+    ng serve --open
+    ```
